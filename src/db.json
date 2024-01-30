@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "title": "Learn java ",
+      "description": "Start datatypes",
+      "dueDate": "2024-02-08",
+      "status": "Completed",
+      "id": "04b7"
+    },
+    {
+      "title": "Fill Exam form",
+      "description": "Government Exam",
+      "dueDate": "2024-03-02",
+      "status": "In Progress",
+      "id": "4458"
+    },
+    {
+      "id": "4ad2",
+      "title": "Create angular Application",
+      "description": "using validations, routing, reactive forms",
+      "dueDate": "2024-02-15",
+      "status": "New"
+    }
+  ]
+}

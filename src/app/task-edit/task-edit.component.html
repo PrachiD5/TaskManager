@@ -1,0 +1,18 @@
+<form [formGroup]="addData"  (ngSubmit)="onUpdate()">
+
+    <h4>Edit Task</h4><br>
+    <input type="text" formControlName="title" placeholder="Task Title" class="form-control"><br>
+
+    <input type="text" formControlName="description"  placeholder="Task Description" class="form-control"><br>
+
+    <input type="date" [min]="minDate" formControlName="dueDate"  placeholder="Due Date" class="form-control"><br>
+
+    <select class="form-select" aria-label="Default select example" formControlName="status" class="form-control">
+        <option selected>Select Status</option>
+        <option value="New">New</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary">Edit Task</button>
+</form>
